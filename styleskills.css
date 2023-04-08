@@ -1,0 +1,113 @@
+* {
+  background-color: #baeaf4;
+  color: #0b6583;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+nav {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+}
+
+nav > img {
+  height: 3em;
+  width: 4em;
+  margin: 1em;
+}
+
+hr {
+  border: 4px solid #f0c15f;
+}
+
+i {
+  margin: 2%;
+}
+
+footer > a {
+  text-decoration: none;
+}
+
+footer {
+  width: 80%;
+}
+
+/* Mobile  */
+@media (max-width: 767px) {
+  nav > a {
+    display: none;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  
+
+  li {
+    margin: 3vh;
+    font-size: 3vh;
+  }
+
+  footer {
+    width: 90%;
+    font-size: 2vh;
+    margin-top: 6vh;
+    margin-left: 3vh;
+  }
+}
+/* end of mobile */
+
+/* tablet */
+@media (min-width: 768px) {
+  nav > a {
+    display: none;
+  }
+  h1 {
+    margin-left: 5vh;
+  }
+  li {
+    margin: 5vh;
+    font-size: 4vh;
+  }
+
+  footer {
+    font-size: 3vh;
+    margin-top: 6vh;
+    margin-left: 3vh;
+  }
+}
+/* end of tablet */
+
+/* desktop */
+@media (min-width: 992px) {
+  nav > img {
+    display: none;
+  }
+
+  nav > a {
+    display: inline;
+    font-size: 5vh;
+    text-decoration: none;
+    padding-bottom: 2vh;
+    margin: 5vh;
+  }
+
+  nav > a:hover {
+    border-bottom: 5px solid #f0c15f;
+  }
+
+  h1{
+        margin-left: 20vh;
+  }
+
+  ol{
+    margin-left: 14vh;
+  }
+
+  footer {
+    font-size: 4vh;
+    margin-top: 10vh;
+    margin-left: 20vh;
+  }
+}
